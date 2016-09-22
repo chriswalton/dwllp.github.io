@@ -197,6 +197,10 @@ h1 {
     opacity: 0.8;
 }
 
+.btnl {
+    width: 100%;
+}
+
 footer {
     margin-top: 10px;
 }
