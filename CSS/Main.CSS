@@ -16,7 +16,7 @@ header ul {
 }
 
 header ul li {
-    width: 23%;
+    width: 22%;
     text-align: center;
     margin: 0px 5px;
     padding: 0;
@@ -26,7 +26,39 @@ header ul li {
 .heademail {
     float: right;
     text-align: right;
-    padding-right: 50px;
+}
+
+.navbar-toggle {
+    float: right;
+    margin-top: 0px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle:hover {
+    border-color: #ff6600;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+    border-color: #ff6600;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.menuleft {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav > li > a {
+    padding: 10px 0px;
 }
 
 ul.nav.nav-pills {
@@ -51,21 +83,21 @@ h1 {
     text-decoration: none;
 }
 
-@media (max-width: 991px) {
-    .carousel-inner {
-        max-height: 300px;
-    }
-}
-
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .carousel-inner {
         max-height: 449px;
     }
 }
 
+@media (max-width: 1199px) {
+    .carousel-inner {
+        max-height: 360px;
+    }
+}
+
 .carousel {
-    margin-top: -40px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom:15px;
 }
 
 .opacbox {
@@ -90,11 +122,18 @@ h1 {
 }
 
 .jumbotron {
+    padding-top: 0px;
     font-family: sans-serif;
     align-items: center;
     color: #000;
     margin-bottom: 0px;
     background-color: #fff;
+}
+
+@media screen and (min-width: 768px){
+    .jumbotron {
+        padding-top: 10px;      
+    }
 }
 
 .jumbotron h2 {
@@ -117,9 +156,9 @@ h1 {
 }
 
 .img-responsive {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
 }
 
 .btn.btn-primary {
