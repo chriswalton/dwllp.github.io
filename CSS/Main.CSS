@@ -20,6 +20,9 @@ header ul li {
     text-align: center;
     margin: 0px 5px;
     padding: 0;
+}
+
+.navline {
     border-bottom: 1px solid #ff6600;
 }
 
