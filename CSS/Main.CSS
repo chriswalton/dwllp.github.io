@@ -98,6 +98,12 @@ h1 {
     }
 }
 
+@media (max-width: 991px) {
+    .carousel-inner {
+        max-height: 264px;
+    }
+}
+
 .carousel {
     margin-top: 15px;
     margin-bottom:15px;
