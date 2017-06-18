@@ -60,6 +60,10 @@ header ul li {
     padding-right: 0px;
 }
 
+.errorlist {
+    padding: 0;
+}
+
 .nav > li > a {
     padding: 10px 0px;
 }
@@ -79,6 +83,7 @@ h1 {
 
 .home {
     color: #000000;
+    text-decoration: none;
 }
 
 .home:hover {

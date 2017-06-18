@@ -11,6 +11,7 @@ header {
 
 header ul {
     width: 100%;
+    width: 100%;
     float: ;
     list-style: none;
 }
@@ -58,6 +59,10 @@ header ul li {
     margin-left: 0px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.errorlist {
+    padding: 0;
 }
 
 .nav > li > a {

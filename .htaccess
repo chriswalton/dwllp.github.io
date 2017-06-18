@@ -1,0 +1,23 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+ErrorDocument 400 http://www.dwllp.com/errors/error
+ErrorDocument 401 http://www.dwllp.com/errors/error
+ErrorDocument 402 http://www.dwllp.com/errors/error
+ErrorDocument 403 http://www.dwllp.com/errors/error
+ErrorDocument 404 http://www.dwllp.com/errors/error
+ErrorDocument 405 http://www.dwllp.com/errors/error
+ErrorDocument 406 http://www.dwllp.com/errors/error
+ErrorDocument 407 http://www.dwllp.com/errors/error
+ErrorDocument 408 http://www.dwllp.com/errors/error
+ErrorDocument 409 http://www.dwllp.com/errors/error
+ErrorDocument 410 http://www.dwllp.com/errors/error
+ErrorDocument 411 http://www.dwllp.com/errors/error
+ErrorDocument 412 http://www.dwllp.com/errors/error
+ErrorDocument 413 http://www.dwllp.com/errors/error
+ErrorDocument 414 http://www.dwllp.com/errors/error
+ErrorDocument 415 http://www.dwllp.com/errors/error
+ErrorDocument 416 http://www.dwllp.com/errors/error
+ErrorDocument 417 http://www.dwllp.com/errors/error
