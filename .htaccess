@@ -21,3 +21,7 @@ ErrorDocument 414 http://www.dwllp.com/errors/error
 ErrorDocument 415 http://www.dwllp.com/errors/error
 ErrorDocument 416 http://www.dwllp.com/errors/error
 ErrorDocument 417 http://www.dwllp.com/errors/error
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
